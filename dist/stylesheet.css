@@ -1,0 +1,33 @@
+body {
+    background-image: url('sprites/Background/background.jpg');
+    overflow: hidden;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+#title {
+	font-size: 32px;
+	margin-top: 200px;
+	margin-bottom: 25px;
+}
+
+.char {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+}
+
+.bullet {
+    width: 30px;
+    height: 30px;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    -webkit-transform: rotate(0deg);
+}
